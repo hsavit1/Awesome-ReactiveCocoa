@@ -1,5 +1,8 @@
 
-### ReactiveCocoa, Functional Reactive Programming, and MVVM isn't easy to understand (especially for an Object Oriented developer), so here's a few good things to read first (I've read a lot of these)
+## ReactiveCocoa, Functional Reactive Programming, and MVVM isn't easy to understand (especially for an Object Oriented developer), so here's a few good things to look at (from my experience). Note that most of these are in Objective C (my language of choice when I first started to learn RAC). Some are in other languages (Haskell, Scala, Erlang) but none are in Swift. By design, I've decided to make a separate list for Swift and RAC 3.0
+
+##### RAC 2.5 Reads
+
 - **[Zweitag FRP Breakdown](https://www.zweitag.de/en/blog/technology/functional-reactive-programming-frp)**: Before you jump into RAC, it's probably a good idea to learn a thing or 2 about what functional programming really is
 - **[RXMarbles](https://github.com/staltz/rxmarbles)**: Really cool demonstrations of reactive programming operators in RX
 - [**RX Website**](http://reactivex.io/documentation/operators.html): This pretty much gives a visual representation of ALL the reactive operators. Remember, RX came before RAC, and a lot of major RACStream and RACSignal methods have an RX equivalent. For example, flattenMap corresponds to SelectMany (in LINQ talk) or FlatMap in RX talk. Dont forget that an Observable is pretty much a Signal and an Enumerable is pretty much a Sequence
@@ -40,8 +43,19 @@ Start with deterministic, declarative, immutable core
 - [**RAC Changelog**](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/fd533d07b64d40cf79d069584d8cd95158998095/CHANGELOG.md#simpler-two-way-bindings): You've probably already read the RAC documentation (highly recommended). However, you probably haven't read [this](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/fd533d07b64d40cf79d069584d8cd95158998095/CHANGELOG.md#simpler-two-way-bindings)
 - [**Reactive Cocoa and Ruby Motion**](http://spin.atomicobject.com/2013/06/18/reactivecocoa-rubymotion/): If you HAVE to use Ruby Motion, you might want to check out this set up guide for getting your RAC code up and running
  
+
+##### RAC 3.0+ Reads
+
+
+
+
+
+
+
 ### ReactiveCocoa should transform EVERYTHING when it comes to writing iOS code so here's a bunch of projects that should make your RAC transtion a little bit smoother
- 
+
+##### RAC 2.5 Projects
+
 - **[Functional Reactive Pixels (FRP)](https://github.com/ashfurrow/FunctionalReactivePixels)**: A great project from the zen master Ash Furrow. Featured in his book
 - **[ExpressiveReactiveCocoa](https://github.com/kastiglione/ExpressiveReactiveCocoa)**: Before you do anything RAC related, make sure to give this presentation a peak!
 - **[RACAction](https://github.com/Automatic/RACAction)**: Make your RACCommands look like Swith and RAC 3.0 's RACAction!
@@ -141,9 +155,18 @@ Start with deterministic, declarative, immutable core
 - [**RAC Ruby Motion**](https://github.com/kastiglione/RACSignupDemo-RubyMotion): An example project for these "special" developers
 - ReactiveCocoaExample: Good prohect that shows how to use RAC with a UISearchBar over a UITableView
  
+ 
+ ##### RAC 3.0+ Projects
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 ##### Wow - you might be saying to yourself... "THERE'S SO MANY PROJECTS!" OKAAY. I'LL LIST MY FAVORITE ONES IN ORDER
  
-##### RAC Example Projects
+##### RAC 2.5 Example Projects
 1. RACSnippets
 2. Functional Reactive Pixels (Ash Furrow)
 3. C-41 (Ash Furrow)
@@ -155,9 +178,13 @@ Start with deterministic, declarative, immutable core
 9. Bizhi
 10. Reactive Cocoa Playground 
 11. Bikes
- 
- 
-##### RAC+Extensions
+
+##### RAC 3.0+ Example Projects
+
+##### RAC 2.5 +Extensions
 1. AFNetworking + RACExtensions
 2. Expecta + RAC
 3. CETableViewBinding
+
+##### RAC 3.0+ Extensions
+
