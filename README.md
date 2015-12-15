@@ -1,5 +1,5 @@
 
-## ReactiveCocoa, Functional Reactive Programming, and MVVM isn't easy to understand (especially for an Object Oriented developer), so here's a few good things to look at (from my experience). Note that most of these are in Objective C (my language of choice when I first started to learn RAC). Some are in other languages (Haskell, Scala, Erlang) but none are in Swift. By design, I've decided to make a separate list for Swift and RAC 3.0
+## ReactiveCocoa, Functional Reactive Programming, and MVVM aren't easy to understand (especially for an Object Oriented developer), so here's a few good things to look at (from my experience). Note that most of these are in Objective C (my language of choice when I first started to learn RAC) and are centered around RAC 2.5. Some are in other languages (Haskell, Scala, Erlang) but none are in Swift. By design, I've decided to make a separate list for Swift and RAC 3.0
 
 ##### RAC 2.5 Reads
 
